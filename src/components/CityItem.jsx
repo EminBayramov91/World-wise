@@ -2,7 +2,6 @@ import styles from "./CityItem.module.css";
 
 import {Link} from "react-router-dom";
 import {useCities} from "../contexts/CitiesContext.jsx";
-import log from "eslint-plugin-react/lib/util/log.js";
 
 const formatDate = (date) =>
     new Intl.DateTimeFormat("en", {
